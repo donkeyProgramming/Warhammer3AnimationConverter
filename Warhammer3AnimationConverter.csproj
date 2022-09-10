@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Warhammer2AnimationSlots.txt" />
+    <None Remove="Resources\Warhammer3AnimationSlots.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Warhammer2AnimationSlots.txt" />
+    <EmbeddedResource Include="Resources\Warhammer3AnimationSlots.txt" />
+  </ItemGroup>
+
+</Project>
